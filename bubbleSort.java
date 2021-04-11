@@ -1,14 +1,14 @@
 public class BubbleSortExample {  
     static void bubbleSort(int[] arr) {  
         int arrayLength = arr.length;  
-        int temp = 0;  
+        int temporary = 0;  
          for(int i=0; i < arrayLength; i++){  
                  for(int j=1; j < (arrayLength-i); j++){  
                           if(arr[j-1] > arr[j]){  
                                  //swap elements  
-                                 temp = arr[j-1];  
+                                 temporary = arr[j-1];  
                                  arr[j-1] = arr[j];  
-                                 arr[j] = temp;  
+                                 arr[j] = temporary;  
                          }  
                           
                  }  
